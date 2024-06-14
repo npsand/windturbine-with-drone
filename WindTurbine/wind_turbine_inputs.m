@@ -32,7 +32,6 @@ wTurbineCutIn               = 11;                        % (rpm) Turbine cut in 
 wTurbineCutOut              = 22;                        % (rpm) Turbine cut out speed
 wTurbinePark                = 0.2*wTurbineCutIn;         % (rpm) Turbine parking speed
 
-
 % Pitch controller parameters
 pitchBrakeAngle             = 95;                        % (deg) Emergency pitch brake angle
 minPitchAngle               = min(pitch);                % (deg) Minimum pitch angle
