@@ -7,7 +7,6 @@ load('sscv_wind_turbine_MPPT.mat')                       % Loading MPPT characte
                                                          % and active power demand vs wind speed
 load('sscv_wind_turbine_Derating.mat')                   % Loading derating table - wind speed vs pitch angle
 
-
 % Rotor hub and gear train parameters
 turbineRadius               = 70.5/2;                    % (m) Turbine radius
 rotorBladeInertia           = 3963845;                   % (kg-m^2) Low speed side inertia
