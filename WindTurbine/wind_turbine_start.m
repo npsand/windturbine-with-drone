@@ -296,6 +296,7 @@ open_system('WindTurbineSystem/Wind Turbine/Wind Turbine/Nacelle/Lumped Generato
 set_param('WindTurbineSystem/Wind Turbine/Grid and Transformer','LinkStatus','none')
 open_system('WindTurbineSystem/Wind Turbine/Grid and Transformer','force')
 
+
 %% Simulation Results from Scope
 %
 % This figure shows the supervisory control states, turbine blade
