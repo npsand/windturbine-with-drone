@@ -315,3 +315,5 @@ sim('WindTurbineSystem');
 
 set_param('WindTurbineSystem/Results','open','off');
 wind_turbine_plot_response;
+
+run("WindTurbine/organizeData")

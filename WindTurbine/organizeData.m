@@ -6,7 +6,7 @@ results = table([], [], [], [], [], 'VariableNames', {'Name', 'Time', 'x', 'y', 
 for blade_number = 1:length(blades)
     blade = blades{blade_number};
     
-    blade_data = eval(['out.pos_' num2str(blade) '.signals.values']);
+    blade_data = eval(['ans.pos_' num2str(blade) '.signals.values']);
     
     for time_entry = 1:(simT + 1)
         all_blade_points_per_one_time = blade_data(:,:,time_entry);
